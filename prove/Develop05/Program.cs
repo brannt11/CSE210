@@ -97,7 +97,7 @@ class Program
                     goalNumber++;
                 }
                 displayPoints = modify.GetPoints();
-                Console.WriteLine($"Congradulations! You have earned {points} points!");
+                Console.WriteLine($"congratulations! You have earned {points} points!");
                 Console.WriteLine($"You now have {displayPoints} points.");
 
             }else if (answer == "6")
@@ -117,7 +117,7 @@ class Program
                 {
                     if (displayPoints >= 100)
                     {
-                        Console.WriteLine("Congradulations, you have bought a Wooden Sword!");
+                        Console.WriteLine("congratulations, you have bought a Wooden Sword!");
                         modify.RemovePoints(100);
                         weapon = "Wooden Sword";
                     }
@@ -130,7 +130,7 @@ class Program
                 {
                     if (displayPoints >= 300)
                     {
-                        Console.WriteLine("Congradulations, you have bought a Iron Sword!");
+                        Console.WriteLine("congratulations, you have bought a Iron Sword!");
                         modify.RemovePoints(300);
                         weapon = "Wooden Iron";
                     }
@@ -143,7 +143,7 @@ class Program
                 {
                     if (displayPoints >= 1200)
                     {
-                        Console.WriteLine("Congradulations, you have bought a Steel Sword!");
+                        Console.WriteLine("congratulations, you have bought a Steel Sword!");
                         modify.RemovePoints(1200);
                         weapon = "Steel Sword";
                     }
@@ -156,7 +156,7 @@ class Program
                 {
                     if (displayPoints >= 3500)
                     {
-                        Console.WriteLine("Congradulations, you have bought a Lazer Sword!");
+                        Console.WriteLine("congratulations, you have bought a Lazer Sword!");
                         modify.RemovePoints(3500);
                         weapon = "Lazer Sword";
                     }
@@ -169,7 +169,7 @@ class Program
                 {
                     if (displayPoints >= 120)
                     {
-                        Console.WriteLine("Congradulations, you have bought a Wooden Armor!");
+                        Console.WriteLine("congratulations, you have bought a Wooden Armor!");
                         modify.RemovePoints(120);
                         armor = "Wooden Armor";
                     }
@@ -182,7 +182,7 @@ class Program
                 {
                     if (displayPoints >= 400)
                     {
-                        Console.WriteLine("Congradulations, you have bought a Iron Armor!");
+                        Console.WriteLine("congratulations, you have bought a Iron Armor!");
                         modify.RemovePoints(400);
                         armor = "Iron Armor";
                     }
@@ -195,7 +195,7 @@ class Program
                 {
                     if (displayPoints >= 1500)
                     {
-                        Console.WriteLine("Congradulations, you have bought a Steel Armor!");
+                        Console.WriteLine("congratulations, you have bought a Steel Armor!");
                         modify.RemovePoints(1500);
                         armor = "Steel Armor";
                     }
@@ -208,7 +208,7 @@ class Program
                 {
                     if (displayPoints >= 4200)
                     {
-                        Console.WriteLine("Congradulations, you have bought a Chromatic Armor!");
+                        Console.WriteLine("Congratulations, you have bought a Chromatic Armor!");
                         modify.RemovePoints(4200);
                         armor = "Chromatic Armor";
                     }
