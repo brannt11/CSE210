@@ -225,7 +225,7 @@ class Program
             }
             else if (answer == "7")
             {
-                Console.WriteLine("See you later, Allegator.");
+                Console.WriteLine("Hope to never see you again.");
             }
             else 
             {
